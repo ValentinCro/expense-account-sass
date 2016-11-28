@@ -4,7 +4,6 @@
 @import 'foundation';
 @import 'motion-ui';
 
-
 @include foundation-global-styles;
 @include foundation-grid;
 // @include foundation-flex-grid;
@@ -47,5 +46,18 @@
 @include foundation-float-classes;
 // @include foundation-flex-classes;
 
+
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  background-color: #1EB397;
+  border-top: #0AA297 5px solid;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #1E77B3;
+  width: 100%;
+}
