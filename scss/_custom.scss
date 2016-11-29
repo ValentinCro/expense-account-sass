@@ -1,0 +1,73 @@
+
+.main-content {
+  padding-top : 15px !important;
+}
+
+.callout {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.button {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: #29252C !important;
+}
+
+
+h2 {
+  border-bottom: 1px solid #ccc !important;
+  text-transform: uppercase !important;
+}
+
+//LEFT MENU
+
+.left-menu {
+  height: 100%;
+  position: fixed;
+  background-color: #33425B;
+  padding-top: 10px;
+  margin-bottom: 100px;
+  -webkit-box-shadow: inset -9px 0px 23px -4px rgba(26,26,26,1);
+  -moz-box-shadow: inset -9px 0px 23px -4px rgba(26,26,26,1);
+  box-shadow: inset -9px 0px 23px -4px rgba(26,26,26,1);
+}
+
+.left-menu a {
+  color : white;
+}
+
+.left-menu a:hover {
+  color : #D8E9F0;
+}
+
+.hide-menu {
+  -ms-transform: translate(-200px, 0px);
+  -webkit-transform: translate(-200px, 0px);
+  transform: translate(-200px, 0px);
+  -webkit-transition-duration: 2.5s; /* Safari */
+  transition-duration: 2.5s;
+}
+
+.arrow-menu {
+  right: 15px;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  font-size: 170%;
+  top: 5px;
+}
+
+.arrow-menu-closed {
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+  -webkit-transition-duration: 2.5s; /* Safari */
+  transition-duration: 2.5s;
+}
+
+.layout .left-menu {
+  width: 250px;
+}
+
+.layout .main-content{
+  margin-left: 255px;
+}
